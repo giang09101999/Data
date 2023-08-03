@@ -4,7 +4,7 @@ Steps for cloning and pushing data to git:
 
 - Step 2: choose generate new token
 
-- Step 3: Set name in "Note"
+- Step 3: Set name on "Note"
 + Click repo, workflow, gist
 
 - Step 4: Create a folder
