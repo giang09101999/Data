@@ -1,0 +1,22 @@
+Steps for cloning and pushing data to git:
+
+- Step 1: Go to https://github.com/settings/tokens
+
+- Step 2: choose generate new token
+
+- Step 3: Set name in "Note"
++ Click repo, workflow, gist
+
+- Step 4: Create a folder
+- Step 5: cd to folder on terminal
++ git init
+
+- Step 6: git clone https://<token>@github.com/<username>/<repo>
+
+- Step 7: Write code and build projects
+
+- Step 6: 
++ git add .
++ git commit -m"name"
++ git branch -M main
++ git push -u origin main
