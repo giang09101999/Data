@@ -1,5 +1,4 @@
 #include<iostream>
-
 using namespace std;
 
 class Complex_number
@@ -9,7 +8,6 @@ class Complex_number
     int image;
     void input_function();
     void output_funciton();
-
 };
 
 void Complex_number::input_function()
@@ -19,14 +17,12 @@ void Complex_number::input_function()
 
     cout << "Input value of image part: " << endl;
     cin >> image;
-
 }
 
 void Complex_number::output_funciton()
 {
     cout << "The complex number is: " << real << " + " << image << "i" << endl;
 } 
-
 
 int main()
 {
