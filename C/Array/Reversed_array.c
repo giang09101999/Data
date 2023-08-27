@@ -2,33 +2,31 @@
 
 int main()
 {
-    int i, n;
-    
+    int n, i, j;
     printf("Input number of elements of array: ");
     scanf("%d", &n);
-    int Array[n];
-
+    int a = n;
+    int array[n];
+    
     for(i = 0; i < n; i++)
     {
-        printf("Array[%d] = ", i);
-        scanf("%d", &Array[i]);
+        printf("array[%d] = ", i);
+        scanf("%d", &array[i]);
     }
-    printf("-----------------------------------\n");
-    int a = n;
     i = 0;
+    int tempt;
     while(i < n)
     {
-        int tempt;
-        tempt = Array[i];
-        Array[i] = Array[n - 1];
-        Array[n - 1] = tempt;
+        tempt = array[i];
+        array[i] = array[n - 1];
+        array[n - 1] = tempt;
         i++;
         n--;
     }
-    printf("-----------------------------------\n");
-    printf("The elements of array after reversing are:\n");
+    printf("--------------------------------\n");
+    printf("The array after reversing: \n");
     for(i = 0; i < a; i++)
     {
-        printf("Array[%d] = %d\n", i, Array[i]);
+        printf("array[%d] = %d\n", i, array[i]);
     }
 }
