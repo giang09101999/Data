@@ -13,7 +13,7 @@ int main()
 	
 	for(i = 0; i < n; i++)
 	{
-		printf("Array[%d] = ");
+		printf("Array[%d] = ", i);
 		scanf("%d", (p + i));
 	}
 	printf("----------------------------\n");
