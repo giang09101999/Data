@@ -15,7 +15,7 @@ int main()
 	for(i = 2; i <= n; i++)
 	{
 		sub -= i;
-		div /= i;
+		divide /= i;
 	}
 	
 	printf("The sum is: %.1f\n", sum);
