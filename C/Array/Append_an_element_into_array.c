@@ -2,7 +2,7 @@
 
 int main()
 {
-	int i, n, index, value;
+	int i, n, position, value;
 	
 	printf("Input number of elements of array: ");
 	scanf("%d", &n);
@@ -15,18 +15,18 @@ int main()
 		scanf("%d", &array[i]);
 	}
 	
-	printf("Input position you want to append element: ");
-	scanf("%d", &index);
+	printf("Choose position you want to append element: ");
+	scanf("%d", &position);
 	
 	printf("Input value you want to append: ");
 	scanf("%d", &value);
 
-	for(i = n; i > index; i--)
+	for(i = n; i > position; i--)
 	{
 		array[i] = array[i - 1];
 	}
 	n++;
-	array[index] = value;
+	array[position] = value;
 	
 	for(i = 0; i < n; i++)
 	{
