@@ -7,7 +7,7 @@ int main()
 	scanf("%d", &n);
 	
 	int array[n];
-	
+	printf("Input elements of array:\n");
 	for(i = 0; i < n; i++)
 	{
 		printf("Array[%d] = ", i);
