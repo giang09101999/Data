@@ -3,7 +3,6 @@
 int main()
 {
     int i, n;
-	int min, max;
 	printf("Input number of elements of array 1: ");
 	scanf("%d", &n);
 	int array_1[n], array_2[n];
