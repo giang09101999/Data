@@ -24,7 +24,7 @@ int main()
 		*(p + i) = *(p + i + 1); 
 	}
 	n--;
-	printf("--------------------------");
+	printf("-------------------------------------\n");
 	printf("The array after deleting an element: \n");
 	for(i = 0; i < n; i++)
 	{
