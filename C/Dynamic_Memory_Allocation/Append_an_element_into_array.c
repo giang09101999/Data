@@ -32,5 +32,5 @@ int main()
 	{
 		printf("Array[%d] = %d\n", i, *(p + i));
 	}	
-	
+	free(p);
 }
