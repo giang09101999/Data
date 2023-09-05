@@ -1,26 +1,26 @@
-#include<iostream>;
-#include<vector>;
+#include<iostream>
+#include<vector>
+
 using namespace std;
 
 int main()
 {
+	int i, n, value;
 	vector<int> array;
 	
-	int i, n, k;
 	cout << "Input number of elements of array: ";
 	cin >> n;
 	
 	for(i = 0; i < n; i++)
 	{
 		cout << "Array[" << i << "] = ";
-		cin >> k;
-		array.push_back(k);
+		cin >> value;
+		array.push_back(value);
 	}
-    
-    cout << "-------------------------------------" << endl;
-    cout << "The array: " << endl;
+	cout << "---------------------------------" << endl;
+	cout << "The array: " << endl;
 	for(i = 0; i < n; i++)
 	{
 		cout << "Array[" << i << "] = " << array[i] << endl;
-	}	
+	}
 }
