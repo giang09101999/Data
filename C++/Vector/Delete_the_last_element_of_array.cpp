@@ -21,7 +21,7 @@ int main() {
     
     cout << "------------------------------------------" << endl;
     cout << "The array after deleting the last element:" << endl;
-    for(i = 0; i < n - 1; i ++)
+    for(i = 0; i < array.size(); i ++)
     {
         cout << "Array[" << i << "] = " << array[i] << endl;
     }
