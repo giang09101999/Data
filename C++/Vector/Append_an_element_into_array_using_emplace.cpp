@@ -22,10 +22,10 @@ int main()
     cout << "Input value you want to append:";
     cin >> append_value;
     array.emplace(array.begin() + position, append_value);
-    n++;
+    
     cout << "---------------------------------------" << endl;
     cout << "The array: " << endl;
-    for(i = 0; i < n; i++)
+    for(i = 0; i < array.size(); i++)
     {
         cout << "Array[" << i << "] = " << array[i] << endl;
     }   
