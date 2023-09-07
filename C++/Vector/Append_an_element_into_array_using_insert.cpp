@@ -26,7 +26,7 @@ int main() {
     cout << "------------------------------------------" << endl;
     cout << "The array: " << endl;
     
-    for(i = 0; i < n; i++)
+    for(i = 0; i < array.size(); i++)
     {
         cout << "Array[" << i << "] = " << array[i] << endl;
     }
