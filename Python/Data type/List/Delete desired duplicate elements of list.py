@@ -15,7 +15,6 @@ for i in List:
     else:
         count = 0
 
-print(count)
 if count == 0:
     print("List: ", List)
     print("This number doesn't exist in list")
