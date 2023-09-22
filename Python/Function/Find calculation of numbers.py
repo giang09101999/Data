@@ -14,10 +14,11 @@ def Division(num1, num2):
     Division = num1 / num2
     print("The division is:", Division)
 
-num1 = int(input("Input value of first number: "))
-num2 = int(input("Input value of second number: "))
-print("------------------------------------------")
-Sum(num1, num2)
-Sub(num1, num2)
-Mul(num1, num2)
-Division(num1, num2)
+if __name__ == "__main__":
+    num1 = int(input("Input value of first number: "))
+    num2 = int(input("Input value of second number: "))
+    print("------------------------------------------")
+    Sum(num1, num2)
+    Sub(num1, num2)
+    Mul(num1, num2)
+    Division(num1, num2)
