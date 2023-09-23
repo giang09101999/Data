@@ -10,3 +10,8 @@ print("The even numbers is:")
 for num in List:
     if (num % 2) == 0:
         print(num)
+
+print("The odd number is:")
+for num in List:
+    if (num % 2) != 0:
+        print(num)
