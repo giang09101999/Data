@@ -1,5 +1,5 @@
 List = []
-count = 0
+
 size = int(input("Input number of elements of list: "))
 
 for i in range(size):
