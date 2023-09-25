@@ -4,7 +4,6 @@ from datetime import date
 time = datetime.today()
 weekday = date.weekday()
 
-
 print("Year:", time.year)
 print("Month:", time.month)
 print("Day:", time.day)
