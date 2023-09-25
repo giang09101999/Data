@@ -14,4 +14,4 @@ print("The original:", *array)
 while value in array:
     array.remove(value)
 
-print("The array after removing desired elements", *array)
+print("The array after removing desired elements:", *array)
