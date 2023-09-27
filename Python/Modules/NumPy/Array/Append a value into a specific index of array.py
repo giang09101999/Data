@@ -13,7 +13,7 @@ value = int(input("Input value you want to append into array: "))
 index = int(input("Input index you want to append into array: "))
 
 List.insert(index, value)
-
 New_Array = np.array(List)
 
-print(New_Array)
+print("The original array:", Array)
+print("The array after appending new element:", New_Array)
