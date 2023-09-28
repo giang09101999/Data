@@ -10,7 +10,7 @@ for i in range(n):
     element = int(input("Number " + str(i + 1)+ " : "))
     List.append(element)
 
-print("Input value of probability of each specific number: ")
+print("Input probability of appearance of each specific number: ")
 for i in range(n):
     element = float(input("Number " + str(i + 1)+ " : "))
     List_2.append(element)
