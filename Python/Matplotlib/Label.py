@@ -6,6 +6,7 @@ y = np.array([2, 4])
 
 plt.plot(x, y)
 
+plt.title("Coordinates")
 plt.xlabel("Horizon")
 plt.ylabel("Vertical")
 plt.show()
